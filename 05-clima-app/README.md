@@ -1,5 +1,10 @@
 # App Clima
 
+## Aplicación de consola para consultar el clima de una ciudad
+
+
+### Run 
+$ node app.js
 
 ### Recursos
 https://home.openweathermap.org/
