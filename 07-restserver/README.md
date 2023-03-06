@@ -6,6 +6,8 @@
 
 nodemon app.js | npm start
 
+### Instalar librerias
+$ npm install
 
 ### Actualizar librerias
 
