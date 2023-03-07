@@ -23,3 +23,5 @@ https://www.npmjs.com/package/express
 https://www.npmjs.com/package/dotenv
 
 https://www.npmjs.com/package/cors
+
+https://mongoosejs.com/docs/index.html
