@@ -29,3 +29,5 @@ https://mongoosejs.com/docs/index.html
 https://www.npmjs.com/package/bcryptjs
 
 https://www.npmjs.com/package/express-validator
+
+https://www.npmjs.com/package/jsonwebtoken

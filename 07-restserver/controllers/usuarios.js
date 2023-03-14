@@ -2,6 +2,7 @@ const { response, request } = require('express');
 const bcryptjs = require('bcryptjs');
 
 const Usuario = require('../models/usuario');
+const { validarJWT } = require('../middlewares/validar-jwt');
 
 const usuariosGet = async(req = request, res = response) => {
 
@@ -74,10 +75,16 @@ const usuariosDelete = async(req, res = response) => {
     //Borrar Fisicamente
     //const usuario = await Usuario.findByIdAndDelete(id);
 
-    const usuario = await Usuario.findByIdAndUpdate(id, { estado: false })
+    const usuario = await Usuario.findByIdAndUpdate(id, { estado: false });
+
+    const usuarioAutenticado = req.usuario;
+    console.log("usuarioAutenticado: ", usuarioAutenticado);
+
+
 
     res.json({
-        usuario
+        usuario,
+        usuarioAutenticado
     });
 }
 
