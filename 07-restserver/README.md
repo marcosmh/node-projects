@@ -31,3 +31,5 @@ https://www.npmjs.com/package/bcryptjs
 https://www.npmjs.com/package/express-validator
 
 https://www.npmjs.com/package/jsonwebtoken
+
+https://www.npmjs.com/package/google-auth-library
