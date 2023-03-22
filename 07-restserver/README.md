@@ -15,6 +15,9 @@ $ npm install -g npm-check-updates
 
 $ npm update
 
+### Documentación
+
+https://developers.google.com/identity/gsi/web/guides/overview?hl=es-419
 
 ### Recursos
 
