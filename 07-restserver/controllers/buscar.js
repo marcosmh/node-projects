@@ -73,9 +73,7 @@ const buscarProductos = async(termino = '', res = response) => {
  
     let preciox = 0;
     if( !Number.isInteger(termino) ) {
-        console.log('si es numero')
         preciox = parseFloat(termino);
-        console.log("preciox: ",preciox);
     }
 
     let regex = '';
