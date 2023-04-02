@@ -104,3 +104,5 @@ dist
 .tern-port
 
 /salida/*.txt
+
+uploads/*.jpg, *.jpeg, *.png, *.txt

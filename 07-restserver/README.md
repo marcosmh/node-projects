@@ -36,3 +36,9 @@ https://www.npmjs.com/package/express-validator
 https://www.npmjs.com/package/jsonwebtoken
 
 https://www.npmjs.com/package/google-auth-library
+
+https://www.npmjs.com/package/express-fileupload
+
+https://www.npmjs.com/package/uuid
+
+https://www.npmjs.com/package/cloudinary
